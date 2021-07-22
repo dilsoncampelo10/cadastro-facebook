@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+}
+#superior{
+    background-color: #3A5A97;
+    color: white;
+    margin: auto;
+}
+form{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+}
+#parte_login, #parte_senha, input[type=submit]{
+    position: absolute;
+    top: 10px;
+}
+#parte_senha{
+    margin-left: 200px;
+}
+input[type=text], input[type=password]{
+    margin-bottom: 8px;
+}
+input[type=submit]{
+    margin: 5px 10px 9px 12px;
+    padding: 4px;
+    width: 50px;
+    background-color: #5d7ab1;
+    color: white;
+    height: 25px;
+}
+form a{
+    color: white;
+    text-decoration: none;
+}
+#superior img{
+    margin-left: 150px;
+}
