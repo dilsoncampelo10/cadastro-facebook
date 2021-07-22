@@ -6,6 +6,7 @@ body{
     background-color: #3A5A97;
     color: white;
     margin: auto;
+    height: 100px;
 }
 form{
     position: absolute;
@@ -34,6 +35,10 @@ form a{
     color: white;
     text-decoration: none;
 }
+form a:hover{
+    text-decoration: underline;
+}
 #superior img{
     margin-left: 150px;
+    margin-top: 43px;
 }
