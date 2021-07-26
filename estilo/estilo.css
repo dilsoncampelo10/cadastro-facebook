@@ -43,10 +43,13 @@ form a:hover{
     margin-top: 43px;
 }
 /*Parte seção 2*/
-#texteimg{
-    float: left;
+section#txteimg, #txteimg article{
+    margin:0;
+    width: 450px;
+    
 }
-p{
+#txteimg p{
+    width: 450px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     margin-left: 165px;
@@ -58,4 +61,6 @@ p{
 #cadastro{
     float: right;
     width: 660px;
+    margin-top: -130px;
+    margin-right: -90px;
 }
