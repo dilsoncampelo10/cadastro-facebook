@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,11 +15,11 @@
 <body>
     <section id="superior">
         <img src="imagens/logo.jpg" alt="logo do facebook">
-        <form id="loginum">
+        <form id="loginum" method="POST" action="process.php">
             <div id="parte_login">
                 <label for="login">E-mail ou telefone</label>
                 <br>
-                <input type="text" name="login" id="login" required>
+                <input type="email" name="login" id="login" required>
                 <br>
                 <input type="checkbox" name="conect" id="conect">
                 <label for="conect">Mantenha-me conectado</label>
@@ -23,7 +27,7 @@
             <div id="parte_senha">
                 <label for="senha">Senha</label>
                 <br>
-                <input type="password" name="senha" id="senha" required>
+                <input type="password" name="pass" id="senha" required>
                 <input type="submit" value="Entrar">
                 <br>
                 <a href="#">Esqueceu a senha?</a>
@@ -32,7 +36,7 @@
     </section>
     <section id="txteimg">
         <article>
-            <p>O Facebook ajuda você a se conectar e <br>compartilhar com as pessoas que fazem parte <br>da sua vida</p>
+            <p>O Facebook ajuda você a se conectar e <br>compartilhar com as pessoas que fazem parte <br>da sua vida.</p>
         </article>
     </section>
     <section id="cadastro">
@@ -45,6 +49,11 @@
             <input type="email" name="confirmemail" id="conemail" class="linhaunica" placeholder="Insira novamente o e-mail ou o celular"> 
             <input type="password" name="newsenha" id="newsenha" class="linhaunica" placeholder="Nova senha">
             <p>Data de nascimento</p>
+            <select name="" id="">
+                <option value="">Dia</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+            </select>
 
         </form>
     </section>
