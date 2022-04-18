@@ -17,12 +17,12 @@ session_start();
     <?php
 
         if(isset($_SESSION["login"])){
-            echo "OI";
+            
             echo $_SESSION["login"];
         } else{
-            // header("Location: login.php");
-            // exit;
-            echo "Sai";
+             header("Location: login.php");
+             exit;
+            
         }
     ?>
         <nav>
